@@ -84,7 +84,6 @@ metadata:
 rules:
   - apiGroups:
       - {{ .Values.groupName }}
-      - v1alpha1.{{ .Values.groupName }}
     resources:
       - '*'
     verbs:
